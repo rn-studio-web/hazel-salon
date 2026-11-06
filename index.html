@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 制作サンプルなので、検索結果には出さない（ほかの制作サンプルと同じ） -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- ここから：検索・SNS向けの設定（SEO・OGP） -->
+  <title>hair salon Hazel｜中崎町の完全予約制美容室</title>
+  <meta name="description" content="大阪・中崎町の小さな美容室「hair salon Hazel」。オーガニック薬剤で髪と頭皮にやさしく、完全予約制の落ち着いた空間でお迎えします。キッズスペースあり。中崎町駅から徒歩5分。">
+  <!-- ※公開先のURL（ポートフォリオの中の制作サンプル）。実際のお店で使うときは、お店のアドレスに書き換えます -->
+  <link rel="canonical" href="https://rn-studio.pages.dev/works/hazel/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="hair salon Hazel">
+  <meta property="og:title" content="hair salon Hazel｜中崎町の完全予約制美容室">
+  <meta property="og:description" content="木漏れ日の下で、髪も心もほどける。オーガニック薬剤と完全予約制の、中崎町の小さな美容室です。">
+  <meta property="og:url" content="https://rn-studio.pages.dev/works/hazel/">
+  <meta property="og:image" content="https://rn-studio.pages.dev/works/hazel/images/ogp.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- ここから：フォント（Google Fonts） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Shippori+Mincho:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- ===================== ここから：ヘッダー（全ページ共通） ===================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- ロゴ：葉っぱマーク＋店名 -->
+      <a href="index.html" class="logo" aria-label="hair salon Hazel トップページへ">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M5 27C5 15 13 6 27 5c0 12-7 22-22 22z" fill="none" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M5 27C11 20 17 14 23 9" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">
+          <span class="logo-sub">hair salon</span>
+          <span class="logo-name">Hazel</span>
+        </span>
+      </a>
+
+      <!-- ハンバーガーボタン（スマホのみ表示） -->
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+
+      <!-- メニュー本体 -->
+      <nav class="global-nav" id="global-nav" aria-label="メインメニュー">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">トップ</a></li>
+          <li><a href="concept.html">Hazelの想い</a></li>
+          <li><a href="menu.html">メニュー・料金</a></li>
+          <li><a href="staff.html">スタッフ・スタイル</a></li>
+          <li><a href="access.html">アクセス・ご予約</a></li>
+        </ul>
+        <div class="nav-reserve">
+          <a href="access.html#reserve" class="btn btn--reserve">Web予約</a>
+        </div>
+        <p class="nav-tel">お電話：<a href="tel:0600000000" class="num">06-0000-0000</a></p>
+      </nav>
+    </div>
+  </header>
+  <!-- ===================== ここまで：ヘッダー ===================== -->
+
+
+  <main>
+
+    <!-- ===================== ここから：メインビジュアル ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <!-- 写真（一番上なので loading="lazy" は付けない） -->
+        <div class="hero-photo">
+          <img class="photo" src="images/hero.webp" width="1400" height="1600" alt="ゆるいウェーブのロングヘアで、ベージュのニットを着てほほえむ女性" fetchpriority="high">
+        </div>
+
+        <!-- 大きな英字の店名（飾りなので、読み上げソフトには読ませない） -->
+        <p class="hero-en" aria-hidden="true">Hazel</p>
+
+        <div class="hero-copy">
+          <p class="hero-kicker">大阪・中崎町　スタッフ3名・席数4席の美容室</p>
+          <h1 class="hero-title" id="hero-title">
+            <span>木漏れ日の下で、</span><br><span>髪も心も</span><span>ほどける。</span>
+          </h1>
+          <p class="hero-lead">オーガニック薬剤と、ひとりずつ向き合う完全予約制。にぎやかな美容室が少し苦手な方も、ゆっくり過ごしてみませんか。</p>
+          <div class="hero-actions">
+            <a href="access.html#reserve" class="btn btn--reserve">空いている日を見て予約する</a>
+            <p class="hero-assure">24時間受付・お電話なしでご予約いただけます</p>
+          </div>
+          <p class="hero-meta">
+            <span class="num">10:00〜19:00</span>（カット最終受付 <span class="num">18:00</span>）<br>
+            定休日　毎週火曜・第3水曜
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== ここまで：メインビジュアル ===================== -->
+
+
+    <!-- ===================== ここから：お知らせ ===================== -->
+    <section class="news" aria-labelledby="news-title">
+      <div class="container news-inner">
+        <h2 class="news-title" id="news-title">お知らせ</h2>
+        <ul class="news-list">
+          <li>
+            <a href="#">
+              <time datetime="2026-11-01" class="num">2026.11.01</time>
+              <span class="news-item-title">年末年始の営業についてのご案内</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <time datetime="2026-10-15" class="num">2026.10.15</time>
+              <span class="news-item-title">冬の乾燥にそなえて、ヘッドスパのご予約枠を増やしました</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <time datetime="2026-09-20" class="num">2026.09.20</time>
+              <span class="news-item-title">キッズスペースに新しい絵本が仲間入りしました</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ===================== ここまで：お知らせ ===================== -->
+
+
+    <!-- ===================== ここから：3つのこだわり ===================== -->
+    <section class="section section--sub" aria-labelledby="points-title">
+      <div class="container points-wrap">
+        <div class="section-head reveal">
+          <h2 class="section-title" id="points-title">Hazelが、<br>大切にしている<br>3つのこと</h2>
+        </div>
+
+        <!-- 大きな写真（スマホでは画面の端まで） -->
+        <div class="points-photo reveal">
+          <img class="photo" src="images/point-products.webp" width="1000" height="1250" alt="観葉植物と並んだ、ラベルのないヘアケア用品のボトル" loading="lazy" decoding="async">
+        </div>
+
+        <ul class="points" data-stagger>
+          <li class="point reveal">
+            <h3 class="point-title">オーガニック薬剤</h3>
+            <p class="point-text">植物由来の成分を中心にした薬剤を選んでいます。カラーのたびにしみていた方も、頭皮をいたわりながら色を楽しめます。</p>
+          </li>
+          <li class="point reveal">
+            <h3 class="point-title">ひとりずつ、丁寧な施術</h3>
+            <p class="point-text">同じ時間に担当するお客さまは、できるだけおひとり。カウンセリングから仕上げまで、同じスタッフが寄りそいます。</p>
+          </li>
+          <li class="point reveal">
+            <h3 class="point-title">完全予約制の、静かな時間</h3>
+            <p class="point-text">待ち時間や、となりの席の話し声を気にせず過ごせます。キッズスペースもあり、お子さま連れでもお越しいただけます。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ===================== ここまで：3つのこだわり ===================== -->
+
+
+    <!-- ===================== ここから：お悩みから選ぶメニュー（ボタンを押すと、おすすめが切り替わる。動きは js/main.js） ===================== -->
+    <section class="section concern" aria-labelledby="concern-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title" id="concern-title">いまの髪のお悩みは？</h2>
+          <p class="section-lead">気になることを選ぶと、よく選ばれているメニューから、おすすめをご案内します。価格はすべて税込です。</p>
+        </div>
+
+        <div class="concern-wrap reveal">
+          <!-- お悩みのボタン -->
+          <div class="concern-tabs" role="group" aria-label="お悩みを選ぶ">
+            <button type="button" class="concern-tab" data-target="concern-1" aria-pressed="true">カラーで頭皮がしみる</button>
+            <button type="button" class="concern-tab" data-target="concern-2" aria-pressed="false">広がる・パサつく</button>
+            <button type="button" class="concern-tab" data-target="concern-3" aria-pressed="false">とにかく癒やされたい</button>
+            <button type="button" class="concern-tab" data-target="concern-4" aria-pressed="false">朝のスタイリングを楽に</button>
+            <button type="button" class="concern-tab" data-target="concern-5" aria-pressed="false">子どもと一緒に行きたい</button>
+          </div>
+
+          <!-- おすすめのメニュー（JavaScriptが動かないときは、全部並べて見せる） -->
+          <div class="concern-panels" aria-live="polite">
+            <article class="concern-panel is-active" id="concern-1">
+              <div class="concern-photo"><img class="photo" src="images/menu-color.webp" width="900" height="600" alt="ハイライトを入れた、ベージュ系のロングヘアの後ろ姿" loading="lazy" decoding="async"></div>
+              <div class="concern-body">
+                <p class="concern-label">おすすめ</p>
+                <h3 class="concern-name"><span class="nw">オーガニックカラー</span><span class="nw">＋カット</span></h3>
+                <p class="concern-price num">¥11,000<small>税込</small></p>
+                <p class="concern-text">植物由来の成分が中心の薬剤で、塗る前に頭皮をまもるオイルをなじませます。しみやにおいが気になっていた方も、色を楽しめます。</p>
+                <a href="access.html#reserve" class="btn btn--reserve">このメニューで予約する</a>
+              </div>
+            </article>
+            <article class="concern-panel" id="concern-2">
+              <div class="concern-photo"><img class="photo" src="images/menu-treatment.webp" width="900" height="600" alt="美容師がドライヤーとブラシで、肩までの髪をブローしている様子" loading="lazy" decoding="async"></div>
+              <div class="concern-body">
+                <p class="concern-label">おすすめ</p>
+                <h3 class="concern-name">髪質改善トリートメント</h3>
+                <p class="concern-price num">¥5,500<small>税込</small></p>
+                <p class="concern-text">髪の内側にうるおいを届けて、広がりやパサつきをおさえます。朝、ブラシがするっと通る髪に。</p>
+                <a href="access.html#reserve" class="btn btn--reserve">このメニューで予約する</a>
+              </div>
+            </article>
+            <article class="concern-panel" id="concern-3">
+              <div class="concern-photo"><img class="photo" src="images/menu-spa.webp" width="900" height="600" alt="シャンプー台で目を閉じたお客さまの髪を、美容師が笑顔で洗っている様子" loading="lazy" decoding="async"></div>
+              <div class="concern-body">
+                <p class="concern-label">おすすめ</p>
+                <h3 class="concern-name">ヘッドスパ（30分）</h3>
+                <p class="concern-price num">¥4,400<small>税込</small></p>
+                <p class="concern-text">頭皮をじっくりほぐす30分。終わるころには、肩までふっと軽くなります。</p>
+                <a href="access.html#reserve" class="btn btn--reserve">このメニューで予約する</a>
+              </div>
+            </article>
+            <article class="concern-panel" id="concern-4">
+              <div class="concern-photo"><img class="photo" src="images/menu-band-perm.webp" width="1920" height="823" alt="美容師がロッドを使い、ブラウンの髪にパーマを巻いている手元" loading="lazy" decoding="async"></div>
+              <div class="concern-body">
+                <p class="concern-label">おすすめ</p>
+                <h3 class="concern-name"><span class="nw">ダメージレスパーマ</span><span class="nw">＋カット</span></h3>
+                <p class="concern-price num">¥13,200<small>税込</small></p>
+                <p class="concern-text">髪への負担をおさえたパーマで、手ぐしでまとまる形に。毎朝のアイロンの時間を、少し短くしませんか。</p>
+                <a href="access.html#reserve" class="btn btn--reserve">このメニューで予約する</a>
+              </div>
+            </article>
+            <article class="concern-panel" id="concern-5">
+              <div class="concern-photo"><img class="photo" src="images/room-kids.webp" width="900" height="1125" alt="絵本とおもちゃが置かれた、店内のキッズスペース" loading="lazy" decoding="async"></div>
+              <div class="concern-body">
+                <p class="concern-label">おすすめ</p>
+                <h3 class="concern-name">キッズカット（小学生まで）</h3>
+                <p class="concern-price num">¥2,750<small>税込</small></p>
+                <p class="concern-text">店内に絵本とおもちゃのあるキッズスペースがあります。お子さまが遊んでいる間に、ママのカットもどうぞ。</p>
+                <a href="access.html#reserve" class="btn btn--reserve">このメニューで予約する</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="menu-more reveal">
+          <a href="menu.html" class="btn btn--line">メニューと料金をすべて見る</a>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== ここまで：お悩みから選ぶメニュー ===================== -->
+
+
+    <!-- ===================== ここから：一文だけの余白＋端まで広げる写真 ===================== -->
+    <section class="breath" aria-label="Hazelからのひとこと">
+      <div class="container reveal">
+        <p class="breath-text">鏡の前で、ほっと<br>ひと息ついてもらえたら。</p>
+      </div>
+
+      <!-- 写真の上に一文を重ねる -->
+      <div class="wide-photo reveal">
+        <img class="photo" src="images/wide.webp" width="1920" height="823" alt="あたたかい日差しが白い壁に差し込み、植物の葉の影が落ちている様子" loading="lazy" decoding="async">
+        <p class="wide-photo-caption">午後の光が、<span class="nw">いちばんきれいな時間に。</span></p>
+      </div>
+    </section>
+    <!-- ===================== ここまで：一文だけの余白＋端まで広げる写真 ===================== -->
+
+
+    <!-- ===================== ここから：スタイルギャラリー ===================== -->
+    <section class="section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title" id="gallery-title">スタイルギャラリー</h2>
+          <p class="section-lead">Hazelで仕上げたスタイルの一部です。なりたい髪型を探してみませんか。</p>
+        </div>
+
+        <ul class="gallery" data-stagger>
+          <li class="reveal">
+            <div class="gallery-photo"><img class="photo" src="images/style-bob-1.webp" width="800" height="1067" alt="前髪のある、あたたかいブラウンの外ハネボブ" loading="lazy" decoding="async"></div>
+            <p class="gallery-caption">前髪ありの外ハネボブ</p>
+          </li>
+          <li class="reveal">
+            <div class="gallery-photo"><img class="photo" src="images/style-long-1.webp" width="800" height="1067" alt="顔まわりにレイヤーを入れた、黒髪のロングヘア" loading="lazy" decoding="async"></div>
+            <p class="gallery-caption">黒髪のレイヤーロング</p>
+          </li>
+          <li class="reveal">
+            <div class="gallery-photo"><img class="photo" src="images/style-short.webp" width="800" height="1067" alt="ベリー色に染めたショートヘアの女性" loading="lazy" decoding="async"></div>
+            <p class="gallery-caption">ベリー色のショートヘア</p>
+          </li>
+          <li class="reveal">
+            <div class="gallery-photo"><img class="photo" src="images/style-bob-2.webp" width="800" height="1067" alt="シースルー前髪の、明るいブロンドのボブを横から見たところ" loading="lazy" decoding="async"></div>
+            <p class="gallery-caption">シースルー前髪のブロンドボブ</p>
+          </li>
+          <li class="reveal">
+            <div class="gallery-photo"><img class="photo" src="images/style-long-2.webp" width="800" height="1067" alt="白い背景の前で目を閉じた、ツヤのある黒髪のロングヘア" loading="lazy" decoding="async"></div>
+            <p class="gallery-caption">ツヤのある黒髪ロング</p>
+          </li>
+          <li class="reveal">
+            <div class="gallery-photo"><img class="photo" src="images/style-bob-3.webp" width="800" height="1067" alt="毛先の内側だけ明るく染めた、ブラウンのボブの後ろ姿" loading="lazy" decoding="async"></div>
+            <p class="gallery-caption">裾カラーのワンレンボブ</p>
+          </li>
+        </ul>
+        <p class="gallery-hint">横にスクロールして、ほかのスタイルも見られます</p>
+
+        <div class="gallery-more reveal">
+          <a href="staff.html#styles" class="text-link">スタイルをもっと見る</a>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== ここまで：スタイルギャラリー ===================== -->
+
+
+    <!-- ===================== ここから：スタッフ紹介（スマホは横にスクロール） ===================== -->
+    <section class="section section--sub" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section-head team-head reveal">
+          <div>
+            <h2 class="section-title" id="team-title">担当するのは、<br>この3人です</h2>
+          </div>
+          <a href="staff.html" class="text-link">スタッフをくわしく見る</a>
+        </div>
+
+        <ul class="team" data-stagger>
+          <li class="reveal">
+            <a href="staff.html" class="team-card">
+              <span class="team-photo"><img class="photo" src="images/staff-1.webp" width="1200" height="1500" alt="髪を後ろでまとめた黒い服のスタイリストが、お客さまの髪を仕上げている様子" loading="lazy" decoding="async"></span>
+              <span class="team-role">オーナー・スタイリスト</span>
+              <span class="team-name">Emma<small>エマ</small></span>
+              <span class="team-good">得意：大人のショート・ボブ</span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a href="staff.html" class="team-card">
+              <span class="team-photo"><img class="photo" src="images/staff-2.webp" width="900" height="1200" alt="窓の光が入る店内で、前髪ありのロングヘアのスタイリストが笑っている様子" loading="lazy" decoding="async"></span>
+              <span class="team-role">スタイリスト</span>
+              <span class="team-name">Lena<small>レナ</small></span>
+              <span class="team-good">得意：オーガニックカラー</span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a href="staff.html" class="team-card">
+              <span class="team-photo"><img class="photo" src="images/staff-3.webp" width="900" height="1125" alt="白いパンツ姿のスタイリストが、鏡の前でお客さまの髪をまとめている様子" loading="lazy" decoding="async"></span>
+              <span class="team-role">アシスタント</span>
+              <span class="team-name">Mia<small>ミア</small></span>
+              <span class="team-good">得意：ヘッドスパ</span>
+            </a>
+          </li>
+        </ul>
+        <p class="team-note">※写真はフリー素材のモデル写真です。名前・役職は架空のものです。</p>
+      </div>
+    </section>
+    <!-- ===================== ここまで：スタッフ紹介 ===================== -->
+
+
+    <!-- ===================== ここから：はじめての方へ（ご来店の流れ） ===================== -->
+    <section class="section flow" aria-labelledby="flow-title">
+      <div class="container flow-wrap">
+        <div class="section-head reveal">
+          <h2 class="section-title" id="flow-title">はじめての方へ</h2>
+          <p class="section-lead">はじめての日は、どんなふうに過ごすのか。ご来店からお帰りまでの流れです。</p>
+        </div>
+
+        <ol class="flow-list" data-stagger>
+          <li class="flow-step reveal">
+            <p class="flow-num" aria-hidden="true">01</p>
+            <div>
+              <h3 class="flow-title">カウンセリング</h3>
+              <p class="flow-text">なりたい雰囲気や、髪と頭皮のお悩みを、座ってゆっくり伺います。写真を見せていただくのも大歓迎です。</p>
+            </div>
+          </li>
+          <li class="flow-step reveal">
+            <p class="flow-num" aria-hidden="true">02</p>
+            <div>
+              <h3 class="flow-title">シャンプー</h3>
+              <p class="flow-text">頭皮の状態を確かめながら、ていねいに洗います。力加減は、遠慮なくお伝えください。</p>
+            </div>
+          </li>
+          <li class="flow-step reveal">
+            <p class="flow-num" aria-hidden="true">03</p>
+            <div>
+              <h3 class="flow-title">施術</h3>
+              <p class="flow-text">カウンセリングをしたスタッフが、最後まで担当します。途中で担当が変わることはありません。</p>
+            </div>
+          </li>
+          <li class="flow-step reveal">
+            <p class="flow-num" aria-hidden="true">04</p>
+            <div>
+              <h3 class="flow-title">仕上げ・おうちでのケア</h3>
+              <p class="flow-text">ご自宅でも同じように仕上がるよう、乾かし方とスタイリングのコツをお伝えします。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- ===================== ここまで：はじめての方へ ===================== -->
+
+
+    <!-- ===================== ここから：アクセス概要＋予約 ===================== -->
+    <section class="section section--sub" aria-labelledby="access-title">
+      <div class="container access-grid">
+        <div class="access-photo reveal">
+          <img class="photo" src="images/access.webp" width="1000" height="1250" alt="窓からの光が白い壁に落ち、小さな植物と木の台が置かれた部屋" loading="lazy" decoding="async">
+        </div>
+
+        <div class="reveal">
+          <div class="section-head">
+            <h2 class="section-title" id="access-title">中崎町駅から、<br>歩いて5分です</h2>
+          </div>
+          <table class="info-table">
+            <tr>
+              <th scope="row">住所</th>
+              <td>大阪府大阪市北区<span class="nw">中崎町0-0-0</span><span class="info-note">（住所はダミー表記です）</span></td>
+            </tr>
+            <tr>
+              <th scope="row">営業時間</th>
+              <td class="num">10:00〜19:00<span class="info-note">カット最終受付 18:00</span></td>
+            </tr>
+            <tr>
+              <th scope="row">定休日</th>
+              <td>毎週火曜・第3水曜</td>
+            </tr>
+            <tr>
+              <th scope="row">電話</th>
+              <td><a href="tel:0600000000" class="num">06-0000-0000</a></td>
+            </tr>
+          </table>
+
+          <div class="access-actions">
+            <a href="access.html#reserve" class="btn btn--reserve">空いている日を見て予約する</a>
+            <a href="access.html" class="text-link">地図・よくある質問を見る</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== ここまで：アクセス概要＋予約 ===================== -->
+
+  </main>
+
+
+  <!-- ===================== ここから：フッター（全ページ共通） ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="logo" aria-label="hair salon Hazel トップページへ">
+            <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M5 27C5 15 13 6 27 5c0 12-7 22-22 22z" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M5 27C11 20 17 14 23 9" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+            <span class="logo-text">
+              <span class="logo-sub">hair salon</span>
+              <span class="logo-name">Hazel</span>
+            </span>
+          </a>
+          <dl class="footer-info">
+            <dt>住所</dt><dd>大阪府大阪市北区中崎町0-0-0</dd>
+            <dt>営業時間</dt><dd class="num">10:00〜19:00<span class="nw">（カット最終受付 18:00）</span></dd>
+            <dt>定休日</dt><dd>毎週火曜・第3水曜</dd>
+            <dt>電話</dt><dd><a href="tel:0600000000" class="num">06-0000-0000</a></dd>
+          </dl>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="concept.html">Hazelの想い</a></li>
+          <li><a href="menu.html">メニュー・料金</a></li>
+          <li><a href="staff.html">スタッフ・スタイル</a></li>
+          <li><a href="access.html">アクセス・ご予約</a></li>
+        </ul>
+
+        <div class="footer-sns">
+          <a href="#" aria-label="Instagram（準備中）">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.8" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+        </div>
+      </div>
+
+      <!-- 制作サンプルの注記（必ず表示） -->
+      <p class="footer-note">※このサイトは制作サンプルです。実在の店舗ではありません。掲載写真は、フリー素材サイト「Unsplash」のものです。</p>
+
+      <div class="footer-bottom">
+        <small>&copy; <span id="year" class="num">2026</span> hair salon Hazel</small>
+      </div>
+    </div>
+  </footer>
+  <!-- ===================== ここまで：フッター ===================== -->
+
+
+  <!-- ===================== ここから：スマホ用の固定ボタン（画面下） ===================== -->
+  <div class="bottom-bar">
+    <a href="tel:0600000000" class="bottom-bar-tel">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 6 6L15 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+      電話する
+    </a>
+    <a href="access.html#reserve" class="bottom-bar-reserve">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="1"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+      Web予約
+    </a>
+  </div>
+
+</body>
+</html>

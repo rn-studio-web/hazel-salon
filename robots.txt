@@ -1,0 +1,6 @@
+# 検索ロボットへの案内（すべてのページを見てよい）
+User-agent: *
+Allow: /
+
+# ※公開するURLが決まったら、下のURLを書き換えます
+Sitemap: https://rn-studio.pages.dev/works/hazel/sitemap.xml

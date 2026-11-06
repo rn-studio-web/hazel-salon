@@ -1,0 +1,24 @@
+hair salon Hazel（架空の美容室・制作サンプル）の公開URL
+
+■ 公開中のサイト（見る人に渡すURL）
+https://rn-studio.pages.dev/works/hazel/
+
+■ 各ページ
+トップ              https://rn-studio.pages.dev/works/hazel/
+Hazelの想い         https://rn-studio.pages.dev/works/hazel/concept.html
+メニュー・料金      https://rn-studio.pages.dev/works/hazel/menu.html
+スタッフ・スタイル  https://rn-studio.pages.dev/works/hazel/staff.html
+アクセス・ご予約    https://rn-studio.pages.dev/works/hazel/access.html
+
+■ GitHub のリポジトリ（ファイルの置き場所）
+https://github.com/rn-studio-web/hazel-salon
+
+公開日: 2026-11-06
+
+■ メモ
+・全ページ noindex 設定済み（検索結果には出ません）
+
+■ 公開のしくみ
+このサイトはポートフォリオ（clodecode\ポートフォリオ\site\works\hazel\）の中で公開しています。
+内容を直したら、ポートフォリオの site/works/hazel/ にも同じ変更をコピーして、
+ポートフォリオのリポジトリ（rn-studio-web/rn-studio）に push すると反映されます。
